@@ -1,0 +1,23 @@
+name: "Mr Rami"
+author: "roerohan, edited by Sultan Baharuddin"
+category: Web
+
+value: 500
+type: dynamic
+
+decay: 450
+minimum: 100
+
+flags:
+  - KMIPN{r0b0ts_is_th3_fl@g}
+
+tags:
+  - web
+
+state: hidden
+version: "0.1"
+
+
+expose:
+- containerPort: 9999
+  nodePort: 5008
